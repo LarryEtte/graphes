@@ -1,0 +1,5 @@
+- name: upload du resultat
+  uses: actions/upload-artifact@v4
+  with:
+    name: g1-result
+    path: /graphes
