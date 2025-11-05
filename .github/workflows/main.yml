@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         run: pytest TP1/test.py
       - name: upload du resultat
-         uses: actions/upload-artifact@v4
-          with:
-            name: g1-result
-            path: /
+        uses: actions/upload-artifact@v4
+         with:
+           name: g1-result
+           path: /
