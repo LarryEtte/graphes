@@ -12,6 +12,6 @@ jobs:
       run: ./NOM-SCRIPT.sh g1
     - name: upload du resultat
       uses: actions/upload-artifact@v4
-        with:
-          name: g1-result
-          path: /
+      with:
+        name: g1-result
+        path: /
